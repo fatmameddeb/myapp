@@ -6,7 +6,7 @@ pipeline {
                 script{
                     checkout([$class: 'GitSCM', branches: [[name: '*/master']],
                         userRemoteConfigs: [[
-                            credentialsId: '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',
+                            credentialsId: 'fatma',
                             url: 'https://github.com/fatmameddeb/myapp.git']]])
                 }
             }
