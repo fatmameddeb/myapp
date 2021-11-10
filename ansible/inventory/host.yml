@@ -5,4 +5,4 @@ localhost ansible_become_pass=fatma
 
 [Server:vars]
 ansible_python_interpreter= /usr/bin/python3
-ansi_user =fatma
+ansi_user =root
